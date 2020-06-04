@@ -14,7 +14,7 @@ const Detail = () => {
     return (
         <SafeAreaView style={{ flex: 1 }}>
             <View style={styles.container}>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={handleNavigateBack}>
                     <Icon name="arrow-left" size={20} color="#34CB79" />
                 </TouchableOpacity>
 
