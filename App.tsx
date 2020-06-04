@@ -9,6 +9,7 @@ import Home from './src/pages/Home';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
+      Roboto_400Regular,
       Roboto_500Medium,
       Ubuntu_700Bold
   });
