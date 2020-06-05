@@ -7,6 +7,8 @@ import { useNavigation } from '@react-navigation/native';
 const Home = () => {
     
     const navigation = useNavigation();
+    
+
 
     function handleNavigateToPoints() {
       navigation.navigate('Points');
